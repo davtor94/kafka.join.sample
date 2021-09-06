@@ -1,0 +1,61 @@
+{
+    "namespace": "com.davtor.avro",
+    "name": "Customer",
+    "type": "record",
+    "fields": [
+    	{
+            "default": null,
+            "name": "customerId",
+            "type": [
+                "null",
+                "string"
+            ],
+            "doc": "This element is the customer id"
+        },
+        {
+            "default": null,
+            "name": "name",
+            "type": [
+                "null",
+                "string"
+            ],
+            "doc": "This element is the customer name"
+        },
+        {
+            "default": null,
+            "name": "lastName",
+            "type": [
+                "null",
+                "string"
+            ],
+            "doc": "This element is the customer last name"
+        },
+        {
+            "default": null,
+            "name": "birthDate",
+            "type": [
+                "null",
+                "string"
+            ],
+            "doc": "This element is the customer birthDate"
+        },
+        {
+            "default": null,
+            "name": "weight",
+            "type": [
+                "null",
+                "double"
+            ],
+            "doc": "This element is the customer weight"
+        },
+        {
+            "default": null,
+            "name": "height",
+            "type": [
+                "null",
+                "double"
+            ],
+            "doc": "This element is the customer height"
+        }
+    ]
+}
